@@ -1,0 +1,21 @@
+'''def first_n(n):
+ Build and return list
+ num, nums = 0, []
+ while num < 10 :
+  nums.append(num)
+  num +=1
+ return nums
+sum_of_first_n = sum (first_n (1000000))'''
+
+'''for loop
+fruits = ["banana", "orange", "apple", "mandarin", "mango", "cherry"]
+for x in fruits:
+  print(x)
+Fruits = "cherry"
+for x in fruits:
+  print(x)'''  
+fruits = ["banana", "orange", "apple", "mandarin", "mango", "cherry"]
+for x in fruits:
+  if x == "mandarin":
+    break  
+  print(x)
